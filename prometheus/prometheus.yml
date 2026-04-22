@@ -6,23 +6,23 @@ global:
 scrape_configs:
   - job_name: "express-app"
     static_configs:
-      - targets: ["47.129.184.141:3000"]
+      - targets: ["47.128.246.27:3000"]
 
   - job_name: "node-exporter"
     static_configs:
-      - targets: ["47.129.184.141:9100"]
+      - targets: ["47.128.246.27:9100"]
 
   - job_name: "fastify-app"
     static_configs:
-      - targets: ["47.129.184.141:3005"]
+      - targets: ["47.128.246.27:3005"]
 
   - job_name: "fastify-app-optimasi"
     static_configs:
-      - targets: ["47.129.184.141:3015"]
+      - targets: ["47.128.246.27:3015"]
 
   - job_name: "express-app-optimasi"
     static_configs:
-      - targets: ["47.129.184.141:3010"]
+      - targets: ["47.128.246.27:3010"]
 
 # scrape_configs:
 #   - job_name: "express-app"
