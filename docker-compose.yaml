@@ -13,7 +13,7 @@ services:
     image: grafana/grafana
     container_name: grafana
     ports:
-      - "3002:3002"
+      - "3000:3000"
     volumes:
       - ./grafana/provisioning:/etc/grafana/provisioning
       - ./grafana/dashboards:/var/lib/grafana/dashboards
